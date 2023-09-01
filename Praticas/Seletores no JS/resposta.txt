@@ -1,0 +1,4 @@
+document.querySelector('input[type="tel"]')
+
+Retorno: 
+<input type="tel" placeholder="Digite seu telefone">
