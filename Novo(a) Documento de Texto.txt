@@ -1,0 +1,115 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true,
+  "code-runner.executorMap": {
+    "python": "python"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.runInTerminal": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "C:\\Python\\Python310\\Scripts\\flake8.exe",
+  "python.testing.unittestEnabled": true,
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.autoClosingQuotes": "always",
+  "terminal.integrated.enablePersistentSessions": false,
+  "editor.wordWrap": "on",
+  // Formatar com Black automaticamente
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "C:\\Python\\Python310\\Scripts\\black.exe",
+  "python.formatting.blackArgs": [
+    "--line-length",
+    "88"
+  ],
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  // Compatibilidade Black-isort
+  "python.sortImports.args": [
+    "-m3",
+    "--tc",
+    "-fgw 0",
+    "--up",
+    "-n",
+    "-l 88"
+  ],
+  // Compatibilidade Black-Flake8
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--ignore=E203, W503, E402",
+    "--max-line-length=88"
+  ],
+  // Compatibilidade pylint
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "C:\\Python\\Python310\\Scripts\\pylint.exe",
+  // Modifique essa configuração, habilitando e desabilitando as mensagens de acordo com suas preferências
+  "python.linting.pylintArgs": [
+    "--disable=all",
+    "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode",
+    "--max-line-length=88"
+  ],
+  "workbench.productIconTheme": "fluent-icons",
+  "code-runner.preserveFocus": true,
+  "editor.autoClosingBrackets": "always",
+  "files.autoSaveDelay": 0.1,
+  "sync.gist": "2405a932b34840fc2d5f70a26a4b6d60",
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "editor.inlayHints.enabled": "off",
+  "java.inlayHints.parameterNames.enabled": "none",
+  "debug.console.acceptSuggestionOnEnter": "on",
+  "cSpell.language": "pt-BR,en",
+  "cSpell.enableFiletypes": [
+    "java"
+  ],
+  "files.exclude": {
+    ".gitattributes": true,
+    "**/*.class": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.startupEditor": "none",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "javafx.libPath": "c:/Users/Rubinho/Desktop/java-courses/Estudos e Praticas/JavaFX/JavaFX Pratica/test/lib",
+  "editor.accessibilitySupport": "off",
+  "window.commandCenter": true,
+  "git.ignoreMissingGitWarning": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.linkedEditing": true,
+  "files.associations": {
+    "*.html": "html"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.formatOnType": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "explorer.confirmDelete": false,
+  "emmet.variables": {
+    "lang": "pt-br"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "update.showReleaseNotes": false,
+  "vscode-pets.petSize": "small",
+  "vscode-pets.throwBallWithMouse": true,
+  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
+  "workbench.preferredLightColorTheme": "Dracula At Night",
+  "workbench.preferredDarkColorTheme": "Dracula At Night",
+  "workbench.preferredHighContrastColorTheme": "Dracula At Night",
+  "workbench.preferredHighContrastLightColorTheme": "Dracula At Night",
+}
